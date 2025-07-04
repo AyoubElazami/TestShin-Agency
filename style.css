@@ -1,0 +1,373 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kalam';
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+.hero {
+    padding: 50px 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.hero h1 {
+    font-size: 2em;
+    color: #199cbf;
+    margin-bottom: 10px;
+}
+
+.hero h1 span {
+    font-style: italic;
+}
+
+.hero p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.card {
+    position: relative;
+    height: 320px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: end;
+    padding: 15px;
+}
+
+.card .info {
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.card .info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.card .info p {
+    font-size: 1.0rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.card .info h3::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://img.icons8.com/?size=100&id=WtxXrJ8eK5wU&format=png&color=000000');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.card .stars {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.australia {
+    background-image: url('img/australia.png');
+}
+
+.maldives {
+    background-image: url('img/maldives.png');
+}
+
+.tanzania {
+    background-image: url('img/tanzania.png');
+}
+
+.thailande {
+    background-image: url('img/thailande.png');
+}
+
+.unique {
+    text-align: center;
+    padding: 60px 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.unique h2 {
+    color: #199cbf;
+    font-size: 1.8em;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.unique h3 {
+    color: #199cbf;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.unique p {
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.unique-image {
+    flex: 1 1 50%;
+}
+
+.imgu {
+    width: 200%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textb {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.text-block img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.text-block h4 {
+    color: #199cbf;
+    margin-bottom: 5px;
+}
+
+.text-block p {
+    color: #666;
+    font-size: 0.95em;
+}
+
+.devis {
+    width: 100%;
+    background-color: #ffffff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    overflow: hidden;
+}
+
+.devis-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.devis-content {
+    flex: 1 1 50%;
+    background-color: #26A5B5;
+    color: white;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    padding-right: 60px;
+    margin-top: 60px;
+}
+
+.devis-image {
+    position: relative;
+    margin-left: -30px;
+    margin-top: -40px;
+    z-index: 2;
+    width: 100%;
+}
+
+.devis-content h3 {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.devis-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.devis-button {
+    display: inline-block;
+    padding: 12px 28px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 200px;
+}
+
+.devis-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.devis-image {
+    flex: 1 1 50%;
+    position: relative;
+    margin-left: -60px;
+    margin-top: -40px;
+    z-index: 2;
+}
+
+.devis-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.circle-decor {
+    position: absolute;
+    border: 5px solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    z-index: 3;
+}
+
+.circle1 {
+    width: 130px;
+    height: 130px;
+    bottom: -65px;
+    left: -30px;
+    transform: rotate(-15deg);
+}
+
+.circle2 {
+    width: 90px;
+    height: 90px;
+    bottom: -45px;
+    left: 60px;
+    transform: rotate(10deg);
+}
+
+@media screen and (max-width: 768px) {
+    .devis-container {
+        flex-direction: column;
+    }
+    .devis-content, .devis-image {
+        flex: 1 1 100%;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 40px 20px;
+    }
+    .circle1, .circle2 {
+        display: none;
+    }
+}
+
+.my-liste {
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #fff;
+}
+
+.my-liste img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.my-liste p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.step {
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.step img {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.my-liste button {
+    background-color: transparent;
+    border: 2px solid #199cbf;
+    color: #199cbf;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.my-liste button:hover {
+    background-color: #199cbf;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .cards, .features, .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .devis {
+        flex-direction: column;
+    }
+
+    .devis img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
