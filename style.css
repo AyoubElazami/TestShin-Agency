@@ -161,8 +161,17 @@ body {
 }
 
 .text-block img {
-    width: 40px;
     margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+    padding: 10px;
 }
 
 .text-block h4 {
@@ -186,8 +195,8 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1500px;
+    margin: 0 ;
     position: relative;
 }
 
@@ -202,8 +211,8 @@ body {
     justify-content: center;
     position: relative;
     z-index: 1;
-    padding-right: 60px;
-    margin-top: 60px;
+    padding-right: 80px;
+    margin-top: 150px;
 }
 
 .devis-image {
@@ -303,7 +312,7 @@ body {
 .my-liste {
     width: 100%;
     text-align: center;
-    padding: 30px 20px;
+    padding: 50px 30px;
     background-color: #fff;
 }
 
@@ -324,15 +333,29 @@ body {
     gap: 20px;
     flex-wrap: wrap;
 }
+.s1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
 
 .step {
-    flex: 1 1 30%;
-    text-align: center;
+    flex: 1 1 20%;
 }
 
 .step img {
-    max-width: 80px;
     margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+    padding: 10px;
 }
 
 .step p {
@@ -354,6 +377,12 @@ body {
 .my-liste button:hover {
     background-color: #199cbf;
     color: #fff;
+}
+
+p strong {
+    color: #199cbf;
+    font-size: 20px;
+
 }
 
 @media (max-width: 768px) {
